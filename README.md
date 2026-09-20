@@ -358,3 +358,56 @@ Prices shown on the website are **indicative** and should be confirmed in a writ
 - Cloudflare Web Analytics: https://developers.cloudflare.com/web-analytics/get-started/
 - Google Search documentation: https://developers.google.com/search/docs/appearance
 - Google Business Profile eligibility: https://support.google.com/business/answer/13763036
+
+
+## Data Analysis Training & Skills Development
+
+The website includes a dedicated training service offering practical, hands-on learning in:
+
+- Python
+- R
+- STATA
+- Microsoft Excel
+- Data cleaning and preparation
+- Statistical analysis and interpretation
+- Data visualization and reporting
+- Research data workflows
+- Project-based exercises
+
+Training can be arranged as one-to-one sessions, small groups, workshops, or customized institutional capacity-building. Training fees are quotation-based and should be agreed according to scope, duration, group size, delivery format, and learning objectives.
+
+## Professional Training Catalogue
+
+Felam offers practical, skills-focused training for students, researchers, health professionals, programme teams and organisations.
+
+### Research Foundations
+- Research Methodology
+- Quantitative Research Methods
+- Qualitative Research Methods
+- Research Ethics / Good Clinical Practice (GCP)
+
+### Digital Data Collection & Management
+- KoboToolbox Essentials
+- Advanced KoboToolbox / XLSForm
+- REDCap
+- Data Management for Research
+
+### Biostatistics, Epidemiology & Analytics
+- Biostatistics for Health Research
+- Epidemiological Methods
+- R for Health Research
+- Stata for Epidemiology
+- Data Analysis using Python, R, STATA and Microsoft Excel
+- Research Data Visualization
+
+### Research & Programme Practice
+- Implementation Research
+- Research Project Management
+- Grant Proposal Writing
+
+### Scientific Communication
+- Scientific Writing
+- Abstract Writing
+- Systematic Review & Meta-analysis
+
+Training may be delivered one-to-one, in small groups, through workshops, or as customised institutional capacity-building. Course content, duration, practical exercises and delivery format can be tailored to the client's needs.
