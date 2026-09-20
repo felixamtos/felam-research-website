@@ -39,7 +39,7 @@
     "description": "Research support, data analysis, scientific writing and research tool development.",
     "url": "https://YOUR-DOMAIN.example/",
     "logo": "https://YOUR-DOMAIN.example/Felam_Logo.png",
-    "email": "felix.amtos@gmail.com",
+    "email": "felamconsultancy@gmail.com",
     "telephone": "+254726563754",
     "sameAs": []
   }
@@ -280,8 +280,11 @@
           <div class="form-row"><label>Email<input type="email" name="email" placeholder="you@example.com"></label><label>Academic level<select name="level"><option>Undergraduate</option><option>Master's</option><option>PhD</option><option>Researcher / Professional</option></select></label></div>
           <label>Service required<select name="service"><option>Concept Writing</option><option>Proposal Support</option><option>Thesis / Dissertation Support</option><option>Data Analysis</option><option>Data Collection Tool</option><option>Scientific Abstract</option><option>Manuscript Support</option><option>Electronic Data Hosting</option><option>Data Analysis Training &amp; Skills Development</option><option>Other</option></select></label>
           <label>Tell us about your project<textarea name="message" required rows="5" placeholder="Briefly describe your topic, objectives, dataset, deadline or support needed..."></textarea></label>
-          <button class="btn btn-primary full" type="submit">Send Enquiry via WhatsApp →</button>
-          <small class="form-note">Submitting opens WhatsApp with your enquiry pre-filled for quick response.</small>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Send via WhatsApp →</button>
+            <button class="btn btn-email" type="button" id="emailEnquiry">Submit via Email ✉</button>
+          </div>
+          <small class="form-note">Choose WhatsApp for a quick response or Email to submit your enquiry through your default email application.</small>
         </form>
       </div>
     </section>

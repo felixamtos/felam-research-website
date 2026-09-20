@@ -44,3 +44,35 @@ document.getElementById('enquiryForm')?.addEventListener('submit', e => {
   const url = 'https://wa.me/254726563754?text=' + encodeURIComponent(message);
   window.open(url, '_blank', 'noopener');
 });
+
+
+document.getElementById('emailEnquiry')?.addEventListener('click', () => {
+  const form = document.getElementById('enquiryForm');
+  if (!form.checkValidity()) {
+    form.reportValidity();
+    return;
+  }
+
+  const f = new FormData(form);
+  const subject = `Quote Request - ${f.get('service')}`;
+  const body = [
+    'Hello Felam Research Consultancy,',
+    '',
+    'I would like to request a quotation.',
+    '',
+    `Name: ${f.get('name')}`,
+    `Phone/WhatsApp: ${f.get('phone')}`,
+    `Email: ${f.get('email') || 'Not provided'}`,
+    `Academic level: ${f.get('level')}`,
+    `Service: ${f.get('service')}`,
+    '',
+    'Project details:',
+    f.get('message')
+  ].join('\\n');
+
+  const mailto = 'mailto:felamconsultancy@gmail.com?subject='
+    + encodeURIComponent(subject)
+    + '&body=' + encodeURIComponent(body);
+
+  window.location.href = mailto;
+});

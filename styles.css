@@ -98,3 +98,13 @@
 .training-mini-list li:before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:900}
 @media(max-width:900px){.training-panel{grid-template-columns:1fr}}
 @media(max-width:700px){.training-content{padding:24px}.training-intro{padding:30px 24px}.training-grid{grid-template-columns:1fr}.training-intro h2{font-size:27px}}
+
+
+.form-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:4px}
+.form-actions .btn{flex:1 1 220px}
+.btn-email{background:#fff;border:1px solid rgba(15,43,74,.22);color:#0f2b4a}
+.btn-email:hover{background:#f4f7fb;border-color:rgba(15,43,74,.4)}
+@media (max-width:640px){
+  .form-actions{flex-direction:column}
+  .form-actions .btn{width:100%}
+}

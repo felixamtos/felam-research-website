@@ -12,7 +12,7 @@ Felam provides research support, data analysis, scientific writing assistance, r
 
 - **Business:** Felam Research Consultancy & Writing Solutions
 - **Phone / WhatsApp:** 0726 563 754 (+254 726 563 754)
-- **Email:** felix.amtos@gmail.com
+- **Email:** felamconsultancy@gmail.com
 - **M-Pesa Till:** 549397
 - **Service model:** Virtual consultancy serving clients in Kenya and beyond
 
